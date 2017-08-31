@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oe7-T4-EFG">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Dashboard-->
+        <scene sceneID="JAM-4u-P4L">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Dashboard" id="cq2-d8-Ix3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="ic_home" selectedImage="ic_home" id="azZ-Ra-SGg"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HVt-Ss-HJJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="365" y="-631"/>
+        </scene>
+        <!--Feed-->
+        <scene sceneID="aPQ-Tv-GId">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Feed" id="HI1-8U-2uq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Feeds" image="ic_rss" selectedImage="ic_rss" id="74X-v2-A0t"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WCf-dq-Bq0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="384" y="-456"/>
+        </scene>
+        <!--Notification-->
+        <scene sceneID="Sbl-0k-rmo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Notification" id="QZ0-su-Odj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Notifications" image="ic_settings" selectedImage="ic_settings" id="Z2z-JD-lId"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ODZ-9f-Shu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="410" y="-310"/>
+        </scene>
+        <!--Account-->
+        <scene sceneID="pvx-Bk-k0G">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Account" id="qoR-rg-Dtc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="My Account" image="ic_myaccount" selectedImage="ic_myaccount" id="Jnx-7N-Oi5"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jVh-EI-ZNf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="428" y="-96"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="I7G-sM-vfG">
+            <objects>
+                <tabBarController storyboardIdentifier="HomeViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oe7-T4-EFG" customClass="HomeViewController" customModule="SportsRating" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="jiU-34-JLI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.31388255953788757" green="0.45901679992675781" blue="0.081686682999134064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="cq2-d8-Ix3" kind="relationship" relationship="viewControllers" id="T1b-xQ-85a"/>
+                        <segue destination="HI1-8U-2uq" kind="relationship" relationship="viewControllers" id="5qS-up-ZC0"/>
+                        <segue destination="QZ0-su-Odj" kind="relationship" relationship="viewControllers" id="ecV-D0-0Gi"/>
+                        <segue destination="qoR-rg-Dtc" kind="relationship" relationship="viewControllers" id="37L-yu-uD2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CQy-h1-Mlh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-497" y="-214"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_home" width="30" height="30"/>
+        <image name="ic_myaccount" width="30" height="30"/>
+        <image name="ic_rss" width="30" height="30"/>
+        <image name="ic_settings" width="30" height="30"/>
+    </resources>
+</document>

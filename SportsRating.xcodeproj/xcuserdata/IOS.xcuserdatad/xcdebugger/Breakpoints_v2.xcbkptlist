@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SportsRating/OTPVerificationTableViewController.swift"
+            timestampString = "525775963.471409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "updateUserSportsPreferences()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SportsRating.OTPVerificationTableViewController.updateUserSportsPreferences () -&gt; ()"
+                  moduleName = "SportsRating"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/IOS/Documents/running%20project/SportsRating/SportsRating/OTPVerificationTableViewController.swift"
+                  timestampString = "525789798.688534"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "2160">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SportsRating.OTPVerificationTableViewController.(updateUserSportsPreferences () -&gt; ()).(implicit closure #1)"
+                  moduleName = "SportsRating"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/IOS/Documents/running%20project/SportsRating/SportsRating/OTPVerificationTableViewController.swift"
+                  timestampString = "525789798.690942"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SportsRating/EventDetailViewController.swift"
+            timestampString = "525788884.503389"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "301"
+            endingLineNumber = "301"
+            landmarkName = "playingRatingButtonTapped(ctrl:playerid:rating:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SportsRating/PlayerDetailsTVC.swift"
+            timestampString = "525789798.549928"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "player2"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SportsRating.PlayerDetailsTVC.player2.didset : Swift.Optional&lt;SportsRating.Player&gt;"
+                  moduleName = "SportsRating"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/IOS/Documents/running%20project/SportsRating/SportsRating/PlayerDetailsTVC.swift"
+                  timestampString = "525789798.708575"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "821">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SportsRating.PlayerDetailsTVC.player2.didset : Swift.Optional&lt;SportsRating.Player&gt;"
+                  moduleName = "SportsRating"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/IOS/Documents/running%20project/SportsRating/SportsRating/PlayerDetailsTVC.swift"
+                  timestampString = "525789798.712336"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "867">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SportsRating/PlayerDetailsTVC.swift"
+            timestampString = "525789709.673386"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "player1"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SportsRating.PlayerDetailsTVC.player1.didset : Swift.Optional&lt;SportsRating.Player&gt;"
+                  moduleName = "SportsRating"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/IOS/Documents/running%20project/SportsRating/SportsRating/PlayerDetailsTVC.swift"
+                  timestampString = "525789798.719327"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "815">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SportsRating.PlayerDetailsTVC.player1.didset : Swift.Optional&lt;SportsRating.Player&gt;"
+                  moduleName = "SportsRating"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/IOS/Documents/running%20project/SportsRating/SportsRating/PlayerDetailsTVC.swift"
+                  timestampString = "525789798.722187"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "861">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
